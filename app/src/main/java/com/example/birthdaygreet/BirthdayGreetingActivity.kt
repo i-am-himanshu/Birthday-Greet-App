@@ -18,6 +18,6 @@ class BirthdayGreetingActivity : AppCompatActivity() {
 
         val name = intent.getStringExtra(NAME_EXTRA)
         val birthdayGreeting: TextView = findViewById(R.id.birthdayGreeting)
-        birthdayGreeting.text ="Happy Bithday\n$name!"
+        birthdayGreeting.text ="Happy Birthday\n$name!"
     }
 }
